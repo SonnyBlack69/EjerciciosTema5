@@ -1,0 +1,22 @@
+
+public class SmartPhone extends SmartDevice {
+    String modelo;
+    int RAM;
+    String tipoPantalla;
+    Double pulgadas;
+
+    public SmartPhone() {
+        modelo = "Pocophone X1";
+        RAM =  16;
+        tipoPantalla = "OLED";
+        pulgadas = 7.5;
+    }
+
+    //Constructor con parámetros.
+    public SmartPhone(String fabricante, String modelo, int RAM, String tipoPantalla, Double pulgadas) {
+        this.modelo = modelo;
+        this.RAM = RAM;
+        this.tipoPantalla = tipoPantalla;
+        this.pulgadas = pulgadas;
+    }
+}
