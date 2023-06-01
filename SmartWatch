@@ -1,0 +1,18 @@
+public class SmartWatch extends SmartDevice {
+    String modelo;
+    boolean tactil;
+    int bateria;
+
+    public SmartWatch(){
+        modelo = "AppleWatch 6";
+        tactil = true;
+        bateria = 1600;
+    }
+
+    //Constructor con parámetros.
+    public SmartWatch(String modelo, boolean tactil, int bateria) {
+        this.modelo = modelo;
+        this.tactil = tactil;
+        this.bateria = bateria;
+    }
+}
