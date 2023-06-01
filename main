@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+        SmartDevice device = new SmartDevice();
+        SmartPhone phone = new SmartPhone();
+        SmartWatch watch = new SmartWatch();
+
+        System.out.println(device.fabricante);
+        System.out.println(phone.fabricante + " " + phone.pulgadas + " " + phone.modelo);
+        System.out.println(watch.bateria + " " + watch.fabricante + " " + watch.tactil);
+
+    }
+}
