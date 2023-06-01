@@ -1,0 +1,12 @@
+public class SmartDevice {
+    String fabricante;
+
+    public SmartDevice(){
+        fabricante = "NOKIA";
+    }
+
+    //Constructor con parámetros.
+    public SmartDevice(String fabricante){
+        this.fabricante = fabricante;
+    }
+}
